@@ -4,7 +4,7 @@ An Api can format java python c# swift php ruby html javascript typescript json 
 
 ## what's this?
 
-这是一个格式化代码的 API ,可以对多种代码类型进行格式化( vue/angular框架也支持 )
+这是一个格式化代码的 API ,可以对多种代码类型进行格式化( vue/angular 框架也支持 )
 The Api Can Format Those Types Of Code ↓
 
 ```formatCodeAPI
@@ -15,42 +15,34 @@ html|javascript|typescript|json|markdown|vue|angular|yaml|graphql
 java|python|c#|swift|php|ruby|apex|xml
 ```
 
-
-
-你可以使用formatCodeApi在线工具格式化代码  https://aozozo.com
+你可以使用 formatCodeApi 在线工具格式化代码 https://aozozo.com
 format Code example
 
-![1594662269529](.\src\1594662269529.png)
-
-
+![1594662269529](./src/1594662269529.png)
 
 ## How to use?
 
-使用POST发送一段Http请求,向服务器获取数据
+使用 POST 发送一段 Http 请求,向服务器获取数据
 
-Use any one language sends a **HTTP request**, use **POST** method with your unformat code, choose the relevant api link to post your HTTP request, put the unformat code ( *String type* ) in request body, you may need add *contentType: text/plain*.
+Use any one language sends a **HTTP request**, use **POST** method with your unformat code, choose the relevant api link to post your HTTP request, put the unformat code ( _String type_ ) in request body, you may need add _contentType: text/plain_.
 
 ```js
 // example - javascript-AJAX-jqurey
 // the example use AJAX to post an http request, you can post http request by other language
-$.post(
-    {
-        url: "http://aozozo.com:600/javascript",
-        //contentType 必需
-        contentType:'text/plain;charset=utf-8',
-        data: "hello",
-        success:function(data){
-            //decodeURIComponent 解码后可以得到
-            console.log(decodeURIComponent(data))
-        },
-        error: function (e) {
-            console.log(e.status)
-        }
-    }
-);
+$.post({
+  url: "http://aozozo.com:600/javascript",
+  //contentType 必需
+  contentType: "text/plain;charset=utf-8",
+  data: "hello",
+  success: function (data) {
+    //decodeURIComponent 解码后可以得到
+    console.log(decodeURIComponent(data));
+  },
+  error: function (e) {
+    console.log(e.status);
+  },
+});
 ```
-
-
 
 ```dart
 // example - flutter dependencies: http: ^0.12.1
@@ -81,11 +73,11 @@ function example() {
 
 ## you can test api in Postman
 
-![1594660979841](.\src\1594660979841.png)
+![1594660979841](./src/1594660979841.png)
 
 use decodeURIComponent code api decode it or use online tool decode it http://aozozo.com
 
-![1594660929989](.\src\1594660929989.png)
+![1594660929989](./src/1594660929989.png)
 
 ## Api links
 
@@ -191,22 +183,18 @@ GraphQL
 http://aozozo.com:600/graphql
 ```
 
-
-
 you can use my format code tool online at https://aozozo.com
 the format code tool use this api.
 
-
-
 ## FAQ
 
-### 我没有收到Api返回的结果  I received nothing  but an error > 
+### 我没有收到 Api 返回的结果 I received nothing but an error >
 
 状态码 404 => #check link 路径错误
-						#server maintenance 服务器正在调试
+#server maintenance 服务器正在调试
 
-​			500 => #usually grammar error 大多数情况下是代码格式问题 ( 语法不规范导致的不能转换 )
-​						#need add header 添加请求头 contentType:'text/plain;charset=utf-8'   
+​ 500 => #usually grammar error 大多数情况下是代码格式问题 ( 语法不规范导致的不能转换 )
+​ #need add header 添加请求头 contentType:'text/plain;charset=utf-8'
 
 ① your HTTP request write wrong ( use method POST , post your code with String type )
 ② Your unformat code have grammar error so an error occurred ( check your code )
