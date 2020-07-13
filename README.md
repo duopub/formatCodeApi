@@ -17,6 +17,7 @@ java|python|c#|swift|php|ruby|apex|xml
 ```
 
 你可以使用 formatCodeApi 在线工具格式化代码 https://aozozo.com
+
 format Code example
 
 ![1594662269529](./src/1594662269529.png)
