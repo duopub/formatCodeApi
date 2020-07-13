@@ -89,19 +89,19 @@ Java
 http://aozozo.com:600/java
 ```
 
-Java
+Python
 
 ```formatCodesApi
 http://aozozo.com:600/python
 ```
 
-Java
+C#
 
 ```formatCodesApi
 http://aozozo.com:600/csharp
 ```
 
-Java
+Swift
 
 ```formatCodesApi
 http://aozozo.com:600/swift
@@ -173,7 +173,7 @@ Angular
 http://aozozo.com:600/angular
 ```
 
-Java
+YAML
 
 ```formatCodesApi
 http://aozozo.com:600/yaml
