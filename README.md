@@ -5,6 +5,7 @@ An Api can format java python c# swift php ruby html javascript typescript json 
 ## what's this?
 
 这是一个格式化代码的 API ,可以对多种代码类型进行格式化( vue/angular 框架也支持 )
+
 The Api Can Format Those Types Of Code ↓
 
 ```formatCodeAPI
@@ -184,6 +185,7 @@ http://aozozo.com:600/graphql
 ```
 
 you can use my format code tool online at https://aozozo.com
+
 the format code tool use this api.
 
 ## FAQ
@@ -191,10 +193,9 @@ the format code tool use this api.
 ### 我没有收到 Api 返回的结果 I received nothing but an error >
 
 状态码 404 => #check link 路径错误
+
 #server maintenance 服务器正在调试
 
 ​ 500 => #usually grammar error 大多数情况下是代码格式问题 ( 语法不规范导致的不能转换 )
-​ #need add header 添加请求头 contentType:'text/plain;charset=utf-8'
 
-① your HTTP request write wrong ( use method POST , post your code with String type )
-② Your unformat code have grammar error so an error occurred ( check your code )
+​ #need add header 添加请求头 contentType:'text/plain;charset=utf-8'
