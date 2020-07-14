@@ -92,7 +92,7 @@ http://aozozo.com:600/java
 Python
 
 ```formatCodesApi
-http://aozozo.com:600/python
+http://www.zafuswitchout.com:3001/python
 ```
 
 C#
