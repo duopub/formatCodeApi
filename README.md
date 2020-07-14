@@ -16,7 +16,7 @@ html|javascript|typescript|json|markdown|vue|angular|yaml|graphql
 java|python|c#|swift|php|ruby|apex|xml
 ```
 
-你可以使用 formatCodeApi 在线工具格式化代码 https://aozozo.com
+你可以使用 formatCodeApi 在线工具格式化代码 http://aozozo.com
 
 format Code example
 
@@ -185,7 +185,7 @@ GraphQL
 http://aozozo.com:600/graphql
 ```
 
-you can use my format code tool online at https://aozozo.com
+you can use my format code tool online at http://aozozo.com
 
 the format code tool use this api.
 
