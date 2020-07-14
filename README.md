@@ -85,103 +85,103 @@ use decodeURIComponent code api decode it or use online tool decode it http://ao
 
 Java
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/java
 ```
 
 Python
 
-```formatCodesApi
+```markdown
 http://www.zafuswitchout.com:3001/python
 ```
 
 C#
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/csharp
 ```
 
-Swift
+~~Swift~~ // crash, fixing
 
-```formatCodesApi
-http://aozozo.com:600/swift
+```markdown
+~~http://aozozo.com:600/swift~~
 ```
 
 PHP
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/php
 ```
 
 Ruby
 
-```formatCodesApi
+```markdown
 http://www.zafuswitchout.com:3001/ruby
 ```
 
 Apex
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/apex
 ```
 
 XML
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/xml
 ```
 
 HTML
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/html
 ```
 
 JavaScript
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/javascript
 ```
 
 Typescript
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/typescript
 ```
 
 JSON
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/json
 ```
 
 Markdown
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/markdown
 ```
 
 Vue
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/vue
 ```
 
 Angular
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/angular
 ```
 
 YAML
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/yaml
 ```
 
 GraphQL
 
-```formatCodesApi
+```markdown
 http://aozozo.com:600/graphql
 ```
 
@@ -197,6 +197,6 @@ the format code tool use this api.
 
 #server maintenance 服务器正在调试
 
-​ 500 => #usually grammar error 大多数情况下是代码格式问题 ( 语法不规范导致的不能转换 )
+500 => #usually grammar error 大多数情况下是代码格式问题 ( 语法不规范导致的不能转换 )
 
-​ #need add header 添加请求头 contentType:'text/plain;charset=utf-8'
+#need add header 添加请求头 contentType:'text/plain;charset=utf-8'
