@@ -101,10 +101,10 @@ C#
 http://aozozo.com:600/csharp
 ```
 
-~~Swift~~ // crash, fixing
+Swift
 
 ```markdown
-~~http://aozozo.com:600/swift~~
+http://www.zafuswitchout.com:3001/swift
 ```
 
 PHP
